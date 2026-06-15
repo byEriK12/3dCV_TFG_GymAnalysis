@@ -195,6 +195,6 @@ Este proyecto ha sido desarrollado como **Trabajo de Final de Grado (TFG)** en e
 | **Titulación** | Grado en Ingeniería en Sistemas Audiovisuales |
 | **Institución** | Universitat Pompeu Fabra (UPF) · Barcelona |
 | **Contacto** | [eric.matas01@estudiant.upf.edu](mailto:eric.matas01@estudiant.upf.edu) |
-| **Memoria TFG** | [`📄 docs/Memoria_TFG_Eric_Matas.pdf`](docs/Memoria_TFG_Eric_Matas_Perez.pdf) |
+| **Memoria TFG** | [`📄 docs/Memoria_TFG_Eric_Matas_Perez.pdf`](docs/Memoria_TFG_Eric_Matas_Perez.pdf) |
 
 > Para cualquier duda técnica sobre el pipeline, sugerencias de mejora o solicitudes de colaboración, no dudes en abrir un [Issue](../../issues) en este repositorio o contactar directamente por correo.
