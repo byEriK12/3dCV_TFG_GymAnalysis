@@ -12,7 +12,7 @@
 #SBATCH -e slurm.SAM3D.%j.err
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-export PYOPENGL_PLATFORM=egl   # 🔥 IMPORTANTE para pyrender
+export PYOPENGL_PLATFORM=egl   
 
 module load Miniconda3/4.9.2
 module load CUDA/12.1
@@ -26,8 +26,8 @@ echo "=== START SAM3D ==="
 nvidia-smi
 
 export HF_HUB_DISABLE_TELEMETRY=1
-export HF_HUB_OFFLINE=0  # Solo si ya descargaste los modelos ayer
+export HF_HUB_OFFLINE=0 
 
 python -m nbconvert --to notebook --execute ../Pruebas_SAM3D_GPU_issues_Pulldown.ipynb --output Resultado_SAM3D.ipynb
 
-echo "=== END ==="
+echo "=== EXECUTION COMPLETED ==="
